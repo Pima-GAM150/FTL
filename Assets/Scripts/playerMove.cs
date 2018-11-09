@@ -37,7 +37,7 @@ public class playerMove : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Pickup"))
         {
-            other.gameObject.SetActive(false);
+            Destroy(other.gameObject);
         }
     }
 }
