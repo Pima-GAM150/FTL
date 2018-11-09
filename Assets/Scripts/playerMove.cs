@@ -8,11 +8,14 @@ public class playerMove : MonoBehaviour
     [SerializeField] private string verticalInputName;
     [SerializeField] private float movementSpeed;
 
+    
+
     private CharacterController charController;
 
     private void Awake()
     {
         charController = GetComponent<CharacterController>();
+
     }
 
     private void Update()
@@ -29,6 +32,13 @@ public class playerMove : MonoBehaviour
         Vector3 rightMovement = transform.right * horizInput;
 
         charController.SimpleMove(forwardMovement + rightMovement);
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Pickup"))
+        {
+            other.gameObject.SetActive(false);
+        }
     }
 }
 
