@@ -20,7 +20,7 @@ public class DestroyRB : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("Pickup"))
         {
-            Destroy(other.gameObject);
+            other.gameObject.SetActive(false);
             count = count + 1;
             SetCountText();
         }
@@ -28,10 +28,10 @@ public class DestroyRB : MonoBehaviour {
 
     void SetCountText()
     {
-        countText.text = "Count: " + count.ToString();
-        if (count >= 12)
+        countText.text = "Followers Saved: " + count.ToString();
+        if (count >= 10)
         {
-            winText.text = "You Win!";
+            winText.text = "YOU ARE A HERO";
         }
     }
 }
