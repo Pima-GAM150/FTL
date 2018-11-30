@@ -23,6 +23,8 @@ public class playerMove : MonoBehaviour
         PlayerMovement();
     }
 
+
+
     private void PlayerMovement()
     {
         float horizInput = Input.GetAxis(horizontalInputName) * movementSpeed;
@@ -40,5 +42,9 @@ public class playerMove : MonoBehaviour
             Destroy(other.gameObject);
         }
     }
+
+    
+
+       
 }
 

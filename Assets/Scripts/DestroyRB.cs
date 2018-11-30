@@ -29,7 +29,7 @@ public class DestroyRB : MonoBehaviour {
     void SetCountText()
     {
         countText.text = "Followers Found: " + count.ToString();
-        if (count >= 1)
+        if (count >= 9)
         {
             winText.text = "YOU ARE A HERO! Press 'R' to Find More Lost";
         }
