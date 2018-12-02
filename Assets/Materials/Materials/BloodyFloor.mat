@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: New Material
+  m_Name: BloodyFloor
   m_Shader: {fileID: 4800000, guid: 0fca00d0731e86e42a94296a060a6dee, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4

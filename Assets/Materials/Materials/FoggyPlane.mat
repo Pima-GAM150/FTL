@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: New Material
+  m_Name: FoggyPlane
   m_Shader: {fileID: 4800000, guid: 0fca00d0731e86e42a94296a060a6dee, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -87,8 +87,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_BC08C4E: {r: 1, g: 0, b: 0, a: 0}
-    - Color_FA47946D: {r: 0.20432737, g: 0.20754719, b: 0.2026522, a: 0}
+    - Color_BC08C4E: {r: 0, g: 0, b: 0, a: 0}
+    - Color_FA47946D: {r: 0.5952296, g: 0.6037736, b: 0.5952296, a: 0}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
